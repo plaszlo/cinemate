@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@custom-variant other (@media (min-width: 340px) and (max-width: 1200px));
+
+@theme {
+  --color-darkbg: #1e293b;
+}
+
+main {
+    max-width: 1280px;
+    margin: auto;
+    min-height: 90vh;
+    padding: 10px;
+}
