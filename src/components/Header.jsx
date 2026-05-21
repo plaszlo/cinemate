@@ -28,7 +28,7 @@ export const Header = () => {
                 <div className="flex flex-wrap justify-between items-center mx-auto">
                     <Link to="/" className="flex items-center">
                         <img src={SawLogo} className="mr-2 h-12" alt="Cinemate Logo" />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Cinemate</span>
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Cinema Mate</span>
                     </Link>
                     {/*Dark Mode Button, Search Button, Search Bar and Hamburger Button*/ }
                     <div className="flex md:order-2">
